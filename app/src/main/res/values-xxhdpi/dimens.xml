@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="space2">4dp</dimen>
+    <dimen name="space4">6dp</dimen>
+    <dimen name="space8">10dp</dimen>
+    <dimen name="space10">12dp</dimen>
+    <dimen name="space16">18dp</dimen>
+    <dimen name="space24">26dp</dimen>
+    <dimen name="btnHeight">50dp</dimen>
+    <dimen name="h1">28sp</dimen>
+    <dimen name="h2">26sp</dimen>
+    <dimen name="h3">24sp</dimen>
+    <dimen name="h4">22sp</dimen>
+    <dimen name="h5">20sp</dimen>
+    <dimen name="h6">18sp</dimen>
+    <dimen name="h7">16sp</dimen>
+</resources>
