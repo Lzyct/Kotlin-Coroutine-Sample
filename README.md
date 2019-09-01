@@ -11,6 +11,9 @@ This app using data from [TheCatAPI](https://thecatapi.com/)
 * [Kotlin Coroutines](https://developer.android.com/kotlin/coroutines)
 * [Retrofit](https://github.com/square/retrofit/)
 * [Coil(Image Loader)](https://coil-kt.github.io/coil/getting_started/)
+* [Kotlin DSL](https://docs.gradle.org/current/userguide/kotlin_dsl.html)
+
+> See file on buildSrc/Confing.kt for detail library usage
 
 ### TO DO
   - [x] Setup First Project Setup
