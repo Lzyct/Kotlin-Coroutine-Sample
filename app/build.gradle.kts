@@ -1,5 +1,3 @@
-import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
-
 plugins {
     id("com.android.application")
     kotlin("android")
@@ -37,6 +35,10 @@ android {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
     }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
 }
 
 //TODO disable for unused library
@@ -46,6 +48,11 @@ dependencies {
     implementation(Androidx.material)
     implementation(Androidx.recyclerview)
     implementation(Androidx.lifecycle)
+
+    implementation(Ktx.navFragment)
+    implementation(Ktx.navUI)
+    implementation(Ktx.core)
+    implementation(Ktx.runtime)
 
     implementation(Kotlin.stdlib)
     implementation(Kotlin.koin)
@@ -69,12 +76,5 @@ dependencies {
 gradle.projectsEvaluated {
     tasks.withType(JavaCompile::class) {
         options.compilerArgs.addAll(arrayOf("-Xmaxerrs", "1000"))
-    }
-}
-
-//using R8
-tasks.withType<KotlinCompile> {
-    kotlinOptions {
-        jvmTarget = "1.8"
     }
 }

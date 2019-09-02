@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list_favorite"
+    app:startDestination="@id/favorite">
+    <fragment
+        android:id="@+id/favorite"
+        android:name="com.tuxdev.coroutines.ui.favorite.FavoriteFragment"
+        android:label="@string/title_favorite"
+        tools:layout="@layout/fragment_favorite">
+        <!--        <action-->
+        <!--            android:id="@+id/action_register_to_registered"-->
+        <!--            app:destination="@id/registered"/>-->
+    </fragment>
+</navigation>

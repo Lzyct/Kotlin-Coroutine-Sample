@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list_home"
+    app:startDestination="@id/home">
+    <fragment
+        android:id="@+id/home"
+        android:name="com.tuxdev.coroutines.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home">
+<!--        <action-->
+<!--            android:id="@+id/action_register_to_registered"-->
+<!--            app:destination="@id/registered"/>-->
+    </fragment>
+</navigation>

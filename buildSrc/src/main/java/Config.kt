@@ -56,6 +56,7 @@ object Androidx {
 object Ktx {
     const val worker = "androidx.work:work-rxjava2:${Version.work}"
     const val core = "androidx.core:core-ktx:${Version.ktx}"
+    const val runtime = "androidx.navigation:navigation-runtime-ktx:${Version.navigation}"
     const val fragment = "androidx.fragment:fragment-ktx:${Version.ktx}"
     const val navFragment = "androidx.navigation:navigation-fragment-ktx:${Version.navigation}"
     const val navUI = "androidx.navigation:navigation-ui-ktx:${Version.navigation}"

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!--    Id menu must same like id in navigation-->
+    <item
+        android:id="@+id/list_home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/title_home" />
+    <item
+        android:id="@+id/list_favorite"
+        android:icon="@drawable/ic_favorite"
+        android:title="@string/title_favorite" />
+</menu>
